@@ -5,6 +5,12 @@
 h6{
     color:white;
 }
+.bar1{
+    width: 50%;
+    height: 4px;
+    border-top: 1px solid burlywood;
+
+}
 
 /* HOME SECTION */
 #hidri-icon{    
@@ -37,7 +43,7 @@ h6{
     font-family: 'Anton', sans-serif;
 }
 .home-heading2{
-    position: fixed;
+    position: absolute;
     left: 50%;
     top:70%;
     transform: translate(-50%,-50%);
@@ -47,7 +53,7 @@ h6{
     font-family: 'Anton', sans-serif;
 }
 #button-id{
-    position: fixed;
+    position: absolute;
     left: 50%;
     top:80%;
     transform: translate(-50%,-50%);
@@ -59,6 +65,26 @@ h6{
 }
   /* SERVICES SECTION*/
 #service{
-    
+    height: 100vh;
+    height: 100%;
+    background: whitesmoke;
 }
+.service-heading{
+    text-align: center;
+    padding:30px;
+}
+.row{
+    padding: 10px;
+}
+.service-head{
+    text-align: center;
+    font-size: 18px;
 
+}
+#service-image{
+    width: 100px;
+    border-radius: 50%;
+}
+#service-image:hover{
+    transform: scale(0.7);
+}
